@@ -1,0 +1,40 @@
+{
+  "name": "joi-match-error",
+  "version": "0.0.1",
+  "description": "A simple (and convenient) wrapper for passing to Joi.error() ",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "prepublishOnly": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pocesar/js-joi-match-error.git"
+  },
+  "keywords": [
+    "joi",
+    "error",
+    "validationerror",
+    "validation",
+    "helper",
+    "wrapper",
+    "match",
+    "switch",
+    "errors"
+  ],
+  "author": "Paulo Cesar <https://github.com/pocesar>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pocesar/js-joi-match-error/issues"
+  },
+  "types": "index.d.ts",
+  "homepage": "https://github.com/pocesar/js-joi-match-error#readme",
+  "peerDependencies": {
+    "@types/joi": "^13.6.0",
+    "joi": "^13.7.0"
+  },
+  "devDependencies": {
+    "ava": "^1.0.0-beta.8",
+    "typescript": "^3.1.1"
+  }
+}

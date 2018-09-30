@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "declaration": true,
+    "target": "es2017",
+    "alwaysStrict": true,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": false,
+    "rootDir": "./",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "files": [
+    "./index.ts"
+  ]
+}

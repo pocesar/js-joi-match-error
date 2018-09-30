@@ -1,0 +1,8 @@
+index.ts
+node_modules
+tests.ts
+ava.config.js
+tests.d.ts
+tests.js.map
+.travis.yml
+!index.js
