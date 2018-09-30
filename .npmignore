@@ -5,4 +5,6 @@ ava.config.js
 tests.d.ts
 tests.js.map
 .travis.yml
+tsconfig.json
 !index.js
+!index.d.ts

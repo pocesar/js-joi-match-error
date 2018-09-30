@@ -1,6 +1,6 @@
 {
   "name": "joi-match-error",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple (and convenient) wrapper for passing to Joi.error() ",
   "main": "index.js",
   "scripts": {
