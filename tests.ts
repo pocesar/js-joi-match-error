@@ -18,6 +18,11 @@ test('invalid label', (t) => {
     Joi.string().label('t').required().error(MatchError({ fallback: InvalidLabel() })).validate('').error.message,
     't is invalid'
   )
+
+  t.is(
+    Joi.string().label('t').required().error(MatchError({ fallback: InvalidLabel('é inválido') })).validate('').error.message,
+    't é inválido'
+  )
 })
 
 test('matching', (t) => {
